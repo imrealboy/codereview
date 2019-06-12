@@ -1,5 +1,20 @@
-# CodeReview
-코드리뷰 심화과정 실습
+# Project 2
+---
+## Files
 
-## 하나
-.실습 잘되냐?
+- `goods.cc`, `goods.h` : Goods class Source code
+
+- `shopping.cc`, `shopping.h` : Shopping class Source code
+
+- `main.cc` : Usage for Shopping and Goods class
+
+- `shopping_test.cc` : Unittest codes for Shopping and Goods class 
+                       using GoogleTest Library
+
+## Install
+
+```
+# cmake CMakeLists.txt
+# make
+# ./main
+```
